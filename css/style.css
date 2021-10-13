@@ -1,0 +1,32 @@
+
+/* font family */
+body{
+    font-family: Arial;
+}
+nav{
+    font-family:  Helvetica;
+}
+
+/* generali */
+
+
+/* banner  */
+.banner1{
+    background: url(../img/jumbo-bg.png) center;
+}
+.banner1 .row{
+    height: 600px;
+    align-items: flex-end;
+}
+.cont-img {
+    width: 200px;
+}
+
+.cont-img-game {
+    width: 150px;
+    height: 100px;
+}
+
+.img-selected{
+    border: thick double blue;
+}
