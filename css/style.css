@@ -1,23 +1,22 @@
 
 /* font family */
-body{
+body {
     font-family: Arial;
 }
-nav{
+nav {
     font-family:  Helvetica;
 }
 
 /* generali */
-
-
-/* banner  */
-.banner1{
-    background: url(../img/jumbo-bg.png) center;
+.height-img {
+    height: 100px;
 }
-.banner1 .row{
-    height: 600px;
-    align-items: flex-end;
+
+.product-selected{
+    border-bottom: 2px solid blue;
 }
+
+/* banner */
 .cont-img {
     width: 200px;
 }
@@ -27,6 +26,26 @@ nav{
     height: 100px;
 }
 
+/* banner  1*/
+.banner1 {
+    background: url(../img/jumbo-bg.png) center;
+}
+
+.banner1 .row {
+    height: 650px;
+    align-items: flex-end;
+}
+/* immagini banner 1 selezionate */
 .img-selected{
     border: thick double blue;
+}
+
+/* banner 2 */
+.banner2{
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) center ;
+}
+
+/* nuove uscite */
+.cont-game-to-buy{
+    width: 150px;
 }
