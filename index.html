@@ -14,8 +14,8 @@
 <!-- nav bar -->
 <div class="container-fluid">
     <div class="row bg-dark">
-        <div class="col-1 py-1  offset-11">
-            <img class="ps-foot" src="img/sony_logo.svg" alt="sony">
+        <div class="py-1">
+            <img class="ps-foot float-end" src="img/sony_logo.svg" alt="sony">
         </div>
     </div>
 </div>
@@ -34,9 +34,22 @@
               Giochi
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">
+                  <div>
+                      <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                  </div>
+                  
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                <div>
+                    <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                </div>
+              </a></li>
+              <li><a class="dropdown-item" href="#">
+                 <div>
+                      <img class="img-fluid" src="img/play-menu-ico.png" alt="">
+                  </div>
+              </a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -71,7 +84,7 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              fai acquisti
+              Fai acquisti
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -91,7 +104,7 @@
           </li>
         </ul>
         <!-- nav a destra -->
-        <ul class="navbar-nav align-items-center">
+        <ul class="navbar-nav align-items-lg-center align-items-left">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 My PlayStation
@@ -110,8 +123,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                    <img class="img-fluid" src="img/lens.svg" alt="">
+                <a class="nav-link active" aria-current="page" href="#">                    
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            <img class="globe-img" src="img/lens.svg" alt="">
+                        </span>
+                        <input type="text" class="form-control d-lg-none d-block " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                      </div>
                 </a>
               </li>
           </ul>
@@ -220,34 +238,34 @@
                 </div>
             </div>
             <!-- immagini prodotti -->
-            <figure class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-3 row-cols-3 text-center text-black-50">
+            <figure  class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-3 row-cols-3 text-center text-black-50">
                     <!-- immagine -->
-                    <div class="col product-selected">
+                    <div class="col product-selected selection">
                         <img class="height-img" src="img/playstation-5-thumb.png" alt="">
                         <div class="text-dark">
                             Console PS5
                         </div>                        
                     </div>
-                    <div class="col">
-                        <img class="height-img opacity-50" src="img/joypad-thumb.png" alt="">
+                    <div class="col selection">
+                        <img class="height-img opacity-50 in-selection" src="img/joypad-thumb.png" alt="">
                         <div>
                             Controller Wireless DualSense&trade;
                         </div>                        
                     </Div>
-                    <div class="col">
-                        <img class="height-img opacity-50" src="img/headset-thumb.png" alt="">
+                    <div class="col selection">
+                        <img class="height-img opacity-50 in-selection" src="img/headset-thumb.png" alt="">
                         <div>
                             Cuffie Wireless con microfono PULSE 3&trade;
                         </div>                        
                     </div>
-                    <div class="col">
-                        <img class="height-img opacity-50" src="img/remote-thumb.png" alt="">
+                    <div class="col selection">
+                        <img class="height-img opacity-50 in-selection" src="img/remote-thumb.png" alt="">
                         <div>
                             Telecomando media
                         </div>                        
                     </div>
-                    <div class="col">
-                        <img class="height-img opacity-50" src="img/camera-thumb.jpg" alt="">
+                    <div class="col selection">
+                        <img class="height-img opacity-50 in-selection" src="img/camera-thumb.jpg" alt="">
                         <div>
                             Telecamera HD
                         </div>                        
