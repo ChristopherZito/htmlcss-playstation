@@ -62,3 +62,22 @@ nav {
 .bg-ps-now {
     background: #161c3b;
 }
+
+footer {
+    background-color: #00439c;
+}
+
+/* footer */
+.ps-foot{
+    width: 100px;
+}
+.globe-img{
+    width: 30px;
+}
+footer ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+footer p {
+    font-size: 14px;
+}
