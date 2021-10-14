@@ -19,6 +19,9 @@ nav {
 .bord-25 {
     border-radius: 25px;
 }
+.bg-dark{
+    background-color: #000 !important;
+}
 
 /* banner */
 .cont-img {
