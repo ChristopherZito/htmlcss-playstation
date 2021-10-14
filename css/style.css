@@ -16,6 +16,10 @@ nav {
     border-bottom: 2px solid blue;
 }
 
+.bord-25 {
+    border-radius: 25px;
+}
+
 /* banner */
 .cont-img {
     width: 200px;
@@ -48,4 +52,13 @@ nav {
 /* nuove uscite */
 .cont-game-to-buy{
     width: 150px;
+}
+
+/* ps-plus & ps now*/
+.ps-plus{
+    width: 50%;
+}
+
+.bg-ps-now {
+    background: #161c3b;
 }
